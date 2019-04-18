@@ -50,7 +50,6 @@ func (cfg nodeConfig) genArgs() []string {
 	var args []string
 
 	args = append(args, "--initdb=false")
-	args = append(args, "--nosanitychecks=true")
 	args = append(args, "--loglevel=debug")
 	args = append(args, "--raiden.disable")
 
